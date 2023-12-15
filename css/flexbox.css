@@ -36,12 +36,22 @@
     gap: 5px;
 }
 
+
 .menu__lista:nth-child(2),
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4) {
     display: none;
 }
- 
+
+/* Seção superior */
+
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
+}
 
 /* Rodapé */
 .rodape__container {
@@ -50,7 +60,7 @@
     flex-wrap: wrap; */
     flex-flow: column wrap;
 }
-@media (min-width: 820px) {
+@media (min-width: 834px) {
     /* Cabeçalho */
     .cabecalho__pesquisar__item {
         display: block;
@@ -61,7 +71,7 @@
     }
 
     /*Menu lateral na versão tablet*/
-    
+
     .menu__container {
         left: 0;
         height: auto;
